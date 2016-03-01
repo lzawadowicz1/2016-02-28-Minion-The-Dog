@@ -37,7 +37,7 @@ div {
 }
 
 .bio {
-  height: 700px;
+  height: 600px;
   width: auto;
   position: relative;
   padding-right: 10%;
@@ -45,14 +45,14 @@ div {
 }
 
 p {
-  display:block;
   position:absolute;
   color: white;
   height: 500px;
-  width: 200px;
-  font-size: 15px;
-  position: right;
-
+  width: 330px;
+  font-size: 19.5px;
+  right: 315px;
+  top:575px;
+  text-indent: 30px;
 
 }
 
