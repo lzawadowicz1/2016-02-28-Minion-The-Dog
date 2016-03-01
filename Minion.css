@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+div {
+ float: left;
+}
+
+.header {
+  background-color: peachpuff;
+  width: 1383px;
+}
+
+.navigation {
+  background-color: pink;
+  width: 45%;
+}
+
+.main_content {
+  background-color: teal;
+  width: 35%;
+  padding: 5%;
+
+}
+
+.sidebar {
+   background-color: red;
+   width: 10%;
+   height: 1920px;
+}
+
+.footer {
+  background-color: lightblue;
+  width: 100%;
+  height: 50px;
+}
