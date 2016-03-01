@@ -40,14 +40,20 @@ div {
   height: 700px;
   width: auto;
   position: relative;
+  padding-right: 10%;
 
 }
 
 p {
-  position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%; 
+  display:block;
+  position:absolute;
+  color: white;
+  height: 500px;
+  width: 200px;
+  font-size: 15px;
+  position: right;
+
+
 }
 
 .sidebar {
