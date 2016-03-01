@@ -48,17 +48,18 @@ p {
   position:absolute;
   color: white;
   height: 500px;
-  width: 330px;
+  width: 325px;
   font-size: 19.5px;
-  right: 315px;
+  right: 319px;
   top:575px;
   text-indent: 30px;
+  font-family: Lucida;
 
 }
 
 .sidebar {
-   background-color: red;
-   width: 10%;
+   background-color: none;
+   width: 3%;
    height: 60%;
 }
 
