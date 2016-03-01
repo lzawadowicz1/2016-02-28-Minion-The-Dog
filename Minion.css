@@ -72,9 +72,15 @@ p {
 .tumbler {
   width: 25%;
   height: auto;
+  position:absolute;
 }
 
 .facebook {
   width: 25%;
   height: auto;
+  position:absolute;
+}
+
+.social_media{
+  position: relative;
 }
