@@ -1,6 +1,9 @@
 body {
-background-image: url("/Users/KTZ/Documents/School/Spring 2016/ART 229-Design For The Web/2016-02-28-Minion-The-Dog/Images/background.jpg");
+background-image: url("/Users/KTZ/Documents/School/Spring 2016/ART 229-Design For The Web/2016-02-28-Minion-The-Dog/Images/background-2.jpg");
 background-repeat: no-repeat;
+
+width: 100%;
+
 }
 
 div {
@@ -27,7 +30,7 @@ div {
 .sidebar {
    background-color: red;
    width: 10%;
-   height: 1920px;
+   height: 1800px;
 }
 
 .footer {
