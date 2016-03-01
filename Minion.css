@@ -63,24 +63,34 @@ p {
    height: 60%;
 }
 
-.footer {
+/*.footer {
   background-color: lightblue;
   width: 100%;
   height: 50px;
-}
+}*/
 
 .tumbler {
-  width: 25%;
+  width: 32%;
   height: auto;
   position:absolute;
+  z-index: 1;
+  padding-left: 34%;
+  padding-top: 18.5%;
 }
 
 .facebook {
-  width: 25%;
+  width: 32%;
   height: auto;
   position:absolute;
+  z-index: 1;
+  padding-left: 34%;
+  padding-top: 5.5%;
 }
 
 .social_media{
   position: relative;
+  width: 40%;
+  height: auto;
+  z-index: -1;
+  padding-left: 30%;
 }
