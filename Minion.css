@@ -36,11 +36,18 @@ div {
   width: 45%;
 }
 
-.main_content {
-  background-color: teal;
-  width: 35%;
-  padding: 5%;
+.bio {
+  height: 700px;
+  width: auto;
+  position: relative;
 
+}
+
+p {
+  position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%; 
 }
 
 .sidebar {
