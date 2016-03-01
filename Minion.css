@@ -11,8 +11,14 @@ div {
 }
 
 .header {
-  background-color: peachpuff;
+  background-color: none;
   width: 1383px;
+}
+
+.minion {
+  height: auto;
+  width: 35%;
+  padding: 2%;
 }
 
 .navigation {
