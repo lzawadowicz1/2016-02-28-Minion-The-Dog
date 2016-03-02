@@ -60,6 +60,10 @@ div {
   top: 6%;
 }
 
+.FFF {
+  width: 15%;
+}
+
 .main_content {
   width: 42%;
   background-color: none;
@@ -127,12 +131,15 @@ p {
 }
 
 .min_left {
-  position: relative;
-  height: 50%;
-  width: auto;
+  position: relative;;
+  height: 42.5%;
+  right: 68%;
+  bottom: 15px;
 }
 
 .min_right {
   position: relative;;
-  height: 50%;
+  height: 42.5%;
+  left: 72%;
+  bottom: 370px;
 }
