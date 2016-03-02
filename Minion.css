@@ -31,32 +31,38 @@ div {
 }
 
 .navigation {
-  background-color: pink;
+  background-color: none;
   width: 55%;
-  height: 800px;
+  height: 500px;
 }
 
 .family {
   width: 60%;
   height: auto;
   position: relative;
+  left: 11%;
+  top: 3%;
 }
 
 .friend {
   width: 60%;
   height: auto;
   position: relative;
+  left: 11%;
+  top: 4.5%;
 }
 
 .foe {
   width: 60%;
   height: auto;
   position: relative;
+  left: 11%;
+  top: 6%;
 }
 
 .main_content {
   width: 42%;
-  background-color: blue;
+  background-color: none;
 }
 
 .bio {
