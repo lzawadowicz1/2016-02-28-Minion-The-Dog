@@ -61,7 +61,24 @@ div {
 }
 
 .FFF {
-  width: 15%;
+  width: 7%;
+  position: absolute;
+}
+
+.Harris {
+  left: 28.5%;
+  bottom: 7%;
+}
+
+.Tori {
+  left: 19%;
+  bottom: 5%;
+  width: 8.5%;
+}
+
+.Cassandra {
+  left: 11.5%;
+  bottom: 7%;
 }
 
 .main_content {
