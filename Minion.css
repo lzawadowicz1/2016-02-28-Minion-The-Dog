@@ -2,6 +2,7 @@ body {
   background-image: url("/Users/KTZ/Documents/School/Spring 2016/ART 229-Design For The Web/2016-02-28-Minion-The-Dog/Images/background-2.jpg");
   background-repeat: no-repeat;
   width: 100%;
+  height: 100%;
 
 }
 
@@ -97,6 +98,22 @@ div {
   bottom: 7%;
 }
 
+.Fox {
+  left: 28.5%;
+  bottom: -15%;
+}
+
+.Neighbors_Dog {
+  left: 19%;
+  bottom: -18%;
+  width: 8.5%;
+}
+
+.Groundhog {
+  left: 11%;
+  bottom: -15%;
+}
+
 .main_content {
   width: 42%;
   background-color: none;
@@ -131,11 +148,9 @@ p {
    height: 60%;
 }*/
 
-/*.footer {
-  background-color: lightblue;
-  width: 100%;
+.footer {
   height: 50px;
-}*/
+}
 
 .tumbler {
   width: 32%;
@@ -165,14 +180,14 @@ p {
 
 .min_left {
   position: relative;;
-  height: 42.5%;
+  height: 742.5%;
   right: 68%;
   bottom: 15px;
 }
 
 .min_right {
   position: relative;;
-  height: 42.5%;
-  left: 72%;
-  bottom: 370px;
+  height: 742.5%;
+  left: 70%;
+  top: -400px;
 }
