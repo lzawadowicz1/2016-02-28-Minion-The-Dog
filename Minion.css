@@ -32,12 +32,12 @@ div {
 
 .navigation {
   background-color: none;
-  width: 55%;
+  width: 52%;
   height: 500px;
 }
 
 .family {
-  width: 60%;
+  width: 65%;
   height: auto;
   position: relative;
   left: 11%;
@@ -45,7 +45,7 @@ div {
 }
 
 .friend {
-  width: 60%;
+  width: 65%;
   height: auto;
   position: relative;
   left: 11%;
@@ -53,7 +53,7 @@ div {
 }
 
 .foe {
-  width: 60%;
+  width: 65%;
   height: auto;
   position: relative;
   left: 11%;
@@ -69,7 +69,7 @@ div {
   height: 600px;
   width: auto;
   position: relative;
-  padding-left: .5%;
+  padding-left: ;
 }
 
 p {
@@ -78,12 +78,13 @@ p {
   height: 500px;
   width: 325px;
   font-size: 19.5px;
-  right: 175px;
+  right: 222px;
   top:575px;
   text-indent: 30px;
   font-family: Lucida;
   text-decoration: none;
   display: inline-block;
+  text-align: center;
 
 }
 
@@ -123,4 +124,15 @@ p {
   height: auto;
   z-index: -1;
   padding-left: 30%;
+}
+
+.min_left {
+  position: relative;
+  height: 50%;
+  width: auto;
+}
+
+.min_right {
+  position: relative;;
+  height: 50%;
 }
