@@ -31,7 +31,7 @@ div {
 }
 
 .navigation {
-  background-color: none;
+  background-color: pink;
   width: 55%;
   height: 800px;
 }
@@ -39,16 +39,19 @@ div {
 .family {
   width: 60%;
   height: auto;
-}
-
-.foe {
-  width: 60%;
-  height: auto;
+  position: relative;
 }
 
 .friend {
   width: 60%;
   height: auto;
+  position: relative;
+}
+
+.foe {
+  width: 60%;
+  height: auto;
+  position: relative;
 }
 
 .main_content {
@@ -73,6 +76,8 @@ p {
   top:575px;
   text-indent: 30px;
   font-family: Lucida;
+  text-decoration: none;
+  display: inline-block;
 
 }
 
