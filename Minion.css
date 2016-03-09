@@ -1,8 +1,9 @@
 body {
   background-image: url("Images/background-2.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  position: relative;
+    height: auto;
+    min-height: 100% 
 
 }
 
@@ -35,6 +36,7 @@ div {
   background-color: none;
   width: 52%;
   height: 500px;
+  position: relative;
 }
 
 .family {
@@ -64,6 +66,7 @@ div {
 .FFF {
   width: 7%;
   position: absolute;
+
 }
 
 .Cathy {
@@ -120,10 +123,9 @@ div {
 }
 
 .bio {
-  height: 600px;
+  height: 76%;
   width: auto;
   position: relative;
-  padding-left: ;
 }
 
 p {
