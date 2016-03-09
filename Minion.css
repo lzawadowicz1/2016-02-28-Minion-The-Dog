@@ -1,9 +1,9 @@
 body {
-  background-image: url("Images/background-2.jpg");
+  background-image: url("/Users/KTZ/Documents/School/Spring 2016/ART 229-Design For The Web/2016-02-28-Minion-The-Dog/Images/background-2.jpg");
   background-repeat: no-repeat;
-  position: relative;
-    height: auto;
-    min-height: 100% 
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
 
 }
 
@@ -13,7 +13,7 @@ div {
 
 .header {
   background-color: none;
-  width: 1383px;
+  width: 100%;
 }
 
 .minion {
@@ -34,44 +34,50 @@ div {
 
 .navigation {
   background-color: none;
-  width: 52%;
-  height: 500px;
-  position: relative;
+  width: 50%;
+  height: 50%;
 }
 
 .family {
-  width: 65%;
   height: auto;
   position: relative;
-  left: 11%;
+  left: 12%;
   top: 3%;
 }
 
 .friend {
-  width: 65%;
   height: auto;
   position: relative;
-  left: 11%;
+  left: 12%;
   top: 4.5%;
 }
 
 .foe {
-  width: 65%;
   height: auto;
   position: relative;
-  left: 11%;
+  left: 12%;
   top: 6%;
 }
 
-.FFF {
-  width: 7%;
-  position: absolute;
+.Family {
+  width: 65%;
+  position: absolute element(.family);
+}
 
+.Friend {
+  width: 65%;
+  position: absolute element(.friend);
+}
+
+.Foe {
+  width: 65%;
+  position: absolute element(.foe);
 }
 
 .Cathy {
-  left: 11%;
+  left: -5%;
   bottom: 29.25%;
+  width: 7%;
 }
 
 .Katie {
@@ -83,11 +89,13 @@ div {
 .Jessi {
   left: 28.5%;
   bottom: 29.25%;
+    width: 7%;
 }
 
 .Harris {
   left: 28.5%;
   bottom: 7.5%;
+  width: 7%;
 }
 
 .Tori {
@@ -99,11 +107,13 @@ div {
 .Cassandra {
   left: 11%;
   bottom: 7.5%;
+  width: 7%;
 }
 
 .Fox {
   left: 28.5%;
   bottom: -15%;
+  width: 7%;
 }
 
 .Neighbors_Dog {
@@ -115,24 +125,25 @@ div {
 .Groundhog {
   left: 11%;
   bottom: -15%;
+  width: 7%;
 }
 
 .main_content {
-  width: 42%;
+  width: 50%;
   background-color: none;
 }
 
 .bio {
-  height: 76%;
+  height: 80%;
   width: auto;
   position: relative;
 }
 
 p {
-  position:absolute;
+  position:absolute element(.bio);
   color: white;
-  height: 500px;
-  width: 325px;
+  height: 50%;
+  width: 30%;
   font-size: 19.5px;
   right: 222px;
   top:575px;
@@ -141,35 +152,12 @@ p {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-
 }
-
-/*.sidebar {
-   background-color: red;
-   width: 1px;
-   height: 60%;
-}*/
 
 .footer {
-  height: 26.5px;
-}
-
-.tumbler {
-  width: 32%;
   height: auto;
-  position:absolute;
-  z-index: 1;
-  left: 34.5%;
-  padding-top: 18.5%;
-}
-
-.facebook {
-  width: 32%;
-  height: auto;
-  position:absolute;
-  z-index: 1;
-  left: 34.5%;
-  padding-top: 5.5%;
+  width: 100%;
+  padding-top: 15%
 }
 
 .social_media{
@@ -180,15 +168,33 @@ p {
   padding-left: 30%;
 }
 
+.tumbler {
+  width: 32%;
+  height: auto;
+  position:absolute element(.social_media);;
+  z-index: 1;
+  left: 34.5%;
+  padding-top: 18.5%;
+}
+
+.facebook {
+  width: 32%;
+  height: auto;
+  position:absolute element(.social_media);;
+  z-index: 1;
+  left: 34.5%;
+  padding-top: 5.5%;
+}
+
 .min_left {
-  position: absolute;;
+  position: absolute element(.social_media);;
   height: 42.5%;
   right: 70%;
-  top: 1070px;
+  top: 250%;
 }
 
 .min_right {
-  position: absolute;;
+  position: absolute element(.social_media);
   height: 42.5%;
   left: 71%;
   top: 1070px;
