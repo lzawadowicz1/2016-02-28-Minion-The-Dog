@@ -53,13 +53,14 @@ div {
   height: auto;
   margin-left: 12%;
   position: relative;
+  margin-top: 8%;
 }
 
 .family_member,
 .friend_squad,
 .Hit_list {
   position: absolute;
-  top: 50%;
+  top: 62%;
 }
 
 .Cathy,
@@ -78,7 +79,9 @@ div {
     right: 32%;
 }
 
-.Katie, .Tori, .Neighbors_Dog {
+.Katie,
+.Tori,
+.Neighbors_Dog {
   left: 35%;
   margin-top: -5.5%;
   width: 18%;
@@ -104,74 +107,90 @@ div {
 }
 
 .bio {
-  height: 80%;
-  width: auto;
+  height: auto;
+  width: 95%;
   position: relative;
+  margin-left: -6%;
 }
 
 p {
   position:absolute;
   color: white;
   height: 50%;
-  width: 20%;
-  font-size: 50%;
-  margin-top: 13.5%;
-  margin-left: -30%;
+  width: 55%;
+  font-size: 41px;
+  margin-top: 32.3%;
+  margin-left: -73.3%;
   font-family: Lucida;
   text-decoration: none;
   text-align: center;
+}
+
+.desperate {
+  width: 100%;
+  height: auto;
+}
+
+/*.desperate > div {
+  position: relative;
+}
+
+.desperate a {
+  display: inline-block;
+}*/
+
+
+.social_media {
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+.tumbler {
+  width: 40%;
+  height:  auto;
+  margin-left: 30%;
+  margin-top: 26.5%;
+  position: absolute;
+}
+
+.facebook {
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  margin-top: 10%;
+  position: absolute;
+
+}
+
+/*.footer {
+  width: 100%;
+  height: auto;
 }
 
 .footer > div {
   position: relative;
 }
 
-.footer .social_media {
+.footer > img {
   display: inline-block;
 }
 
-.footer {
-  height: auto;
-  width: 100%;
-  padding-top: 15%
-}
-
-.social_media {
-  position: relative;
-  width: 65%;
-  height: auto;
-  z-index: -1;
-  padding-left: 30%;
-}
-
-.tumbler {
-  width: 47%;
-  height: auto;
-  position:absolute;
+.min_right,
+.min_left {
+  position: absolute;
   z-index: 1;
-  left: 34.5%;
-  padding-top: 28.5%;
-}
-
-.facebook {
-  width: 47%;
-  height: auto;
-  position:absolute;
-  z-index: 1;
-  left: 34.5%;
-  padding-top: 11.5%;
-
 }
 
 .min_left {
-  position: absolute;
-  top:0;
-  left: -1600;
-  float:none;
+  top:7%;
+  left: 5%;
+  float: none;
 }
 
 .min_right {
-  position: absolute;
-  top:0;
-  right:-400;
-}
+  top:7%;
+  right: -140%;
+}*/
